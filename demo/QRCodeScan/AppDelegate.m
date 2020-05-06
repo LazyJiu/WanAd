@@ -26,7 +26,7 @@
 
     [[QuQu sharedInstance] launch:29
                           options:launchOptions
-                          channel:@"11.3.0"
+                          channel:@"11.4.0"
                             jpush:@"44fb5cc0010b8835e3de7ba2"
                           wxAppid:@"wxbd2ae4133e395dcb"
                          wxSecret:@"295a38e21cb35cd8585c0e6855338883"

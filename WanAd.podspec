@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WanAd'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of MMAd.'
 
 # This description is used to generate tags and improve search results.
@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
  s.dependency  'UMCShare/UI', '6.9.6'
  s.dependency  'UMCShare/Social/ReducedQQ', '6.9.6'
  s.dependency  'UMCShare/Social/ReducedWeChat', '6.9.6'
- s.dependency  'AFNetworking', '~> 3.0'
+ s.dependency  'AFNetworking', '~> 4.0'
  s.dependency  'MBProgressHUD', '~> 1.1.0 '
  s.dependency  'Masonry', '~> 1.1.0'
  s.dependency  'MJRefresh', '~> 3.0'
