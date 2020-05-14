@@ -21,9 +21,9 @@
  QQAppid： QQ Appid
  QQSecret： QQ秘钥
  UMAppkey： 友盟的key
- 
+ authKey: 阿里云短信key
  */
-- (void)launch:(NSInteger)version options:(NSDictionary *)launchOptions channel:(NSString *)channel jpush:(NSString *)jpush wxAppid:(NSString *)wxAppid wxSecret:(NSString *)wxSecret QQAppid:(NSString *)QQAppid QQSecret:(NSString *)QQSecret UMAppkey:(NSString *)UMAppkey reject:(void (^)(void))reject;
+- (void)launch:(NSInteger)version options:(NSDictionary *)launchOptions channel:(NSString *)channel jpush:(NSString *)jpush wxAppid:(NSString *)wxAppid wxSecret:(NSString *)wxSecret QQAppid:(NSString *)QQAppid QQSecret:(NSString *)QQSecret UMAppkey:(NSString *)UMAppkey authKey:(NSString *)authKey reject:(void (^)(void))reject;
 
 - (BOOL)link:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options;
 

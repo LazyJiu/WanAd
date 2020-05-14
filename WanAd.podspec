@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WanAd'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A short description of MMAd.'
 
 # This description is used to generate tags and improve search results.
@@ -39,21 +39,21 @@ TODO: Add long description of the pod here.
   #s.preserve_paths = 'MMAd/**/*'
 
 
- s.dependency  'UMCShare/UI', '6.9.6'
- s.dependency  'UMCShare/Social/ReducedQQ', '6.9.6'
- s.dependency  'UMCShare/Social/ReducedWeChat', '6.9.6'
+ s.dependency  'UMCShare/UI', '6.9.8'
+ s.dependency  'UMCShare/Social/ReducedQQ', '6.9.8'
+ s.dependency  'UMCShare/Social/ReducedWeChat', '6.9.8'
  s.dependency  'AFNetworking', '~> 4.0'
  s.dependency  'MBProgressHUD', '~> 1.1.0 '
  s.dependency  'Masonry', '~> 1.1.0'
  s.dependency  'MJRefresh', '~> 3.0'
-
+ s.dependency  'NoPayWeChatSDK' , '1.8.7.1'
 
  s.dependency  'UMCAnalytics', '6.0.5'
  s.dependency  'JPush', '3.2.6'
  
- s.dependency  'ATAuthSDKMM', '1.0.3'
+ s.dependency  'ATAuthSDKMM', '1.0.4'
  s.dependency  'BUAdSDKMM', '1.0.9'
- s.dependency  'GDTMobSDKMM', '1.0.5'
+ s.dependency  'GDTMobSDKMM', '1.0.6'
 # s.dependency  'MintegralAdSDK/InterstitialVideoAd', '5.8.4'
 # s.dependency  'MintegralAdSDK/RewardVideoAd', '5.8.4'
 end
