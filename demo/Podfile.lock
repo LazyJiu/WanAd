@@ -38,23 +38,21 @@ PODS:
   - UMCShare/UI (6.9.8):
     - UMCCommon
     - UMCShare/Core
-  - WanAd (1.0.5):
-    - AFNetworking (~> 4.0)
-    - ATAuthSDKMM (= 1.0.4)
-    - BUAdSDKMM (= 1.0.9)
-    - GDTMobSDKMM (= 1.0.6)
-    - JPush (= 3.2.6)
-    - Masonry (~> 1.1.0)
-    - MBProgressHUD (~> 1.1.0)
-    - MJRefresh (~> 3.0)
-    - NoPayWeChatSDK (= 1.8.7.1)
-    - UMCAnalytics (= 6.0.5)
-    - UMCShare/Social/ReducedQQ (= 6.9.8)
-    - UMCShare/Social/ReducedWeChat (= 6.9.8)
-    - UMCShare/UI (= 6.9.8)
 
 DEPENDENCIES:
-  - WanAd (from `../`)
+  - AFNetworking (~> 4.0)
+  - ATAuthSDKMM (= 1.0.4)
+  - BUAdSDKMM (= 1.0.9)
+  - GDTMobSDKMM (= 1.0.6)
+  - JPush (= 3.2.6)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.1.0)
+  - MJRefresh (~> 3.0)
+  - NoPayWeChatSDK (= 1.8.7.1)
+  - UMCAnalytics (= 6.0.5)
+  - UMCShare/Social/ReducedQQ (= 6.9.8)
+  - UMCShare/Social/ReducedWeChat (= 6.9.8)
+  - UMCShare/UI (= 6.9.8)
 
 SPEC REPOS:
   trunk:
@@ -72,10 +70,6 @@ SPEC REPOS:
     - UMCCommon
     - UMCShare
 
-EXTERNAL SOURCES:
-  WanAd:
-    :path: "../"
-
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   ATAuthSDKMM: b0f01dd02ea7ffc4aa1ebec4ccf90743afe7f7ba
@@ -90,8 +84,7 @@ SPEC CHECKSUMS:
   UMCAnalytics: 045be2cd1ec05aa95ad62405a850757f932e2d59
   UMCCommon: b0703b0053323f598e01670ea702b8eb1e66e611
   UMCShare: a250203b34a56cde25cc4c28335449b542f0255d
-  WanAd: cbdcf4fe9fbf6892b1ad2dbf0e6d9dfa217cd2bd
 
-PODFILE CHECKSUM: 2342cf231197300f62eb5cb9a81a47617e4773d7
+PODFILE CHECKSUM: c5925f3d7c88e81ff08766cde821b292037c8253
 
 COCOAPODS: 1.9.1

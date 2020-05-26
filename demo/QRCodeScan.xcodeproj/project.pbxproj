@@ -10,6 +10,8 @@
 		13C1E27ABCD220CC0F730114 /* libPods-QRCodeScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F81EFE98034E730840E7ABF /* libPods-QRCodeScan.a */; };
 		7663C38F1F11EFE7CCFD5617 /* libPods-QRCodeScanTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BABEFD91F5CD6542A3A756 /* libPods-QRCodeScanTests.a */; };
 		AA27E46DA192368EE81F13C3 /* libPods-QRCodeScan-QRCodeScanUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE690DC7FF159BB64AC2AD8 /* libPods-QRCodeScan-QRCodeScanUITests.a */; };
+		C80E9C3E247D36A500198E13 /* Qu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C80E9C3B247D36A500198E13 /* Qu.bundle */; };
+		C80E9C3F247D36A500198E13 /* libQuQu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C80E9C3C247D36A500198E13 /* libQuQu.a */; };
 		F10E0180239F35A40085C4F8 /* QRCodeScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E017F239F35A40085C4F8 /* QRCodeScanView.m */; };
 		F10E0183239F42700085C4F8 /* QRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10E0182239F42700085C4F8 /* QRCodeScanViewController.m */; };
 		F11AF1FE239E2204009CE7A9 /* QRCodeGenerateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F11AF1FD239E2204009CE7A9 /* QRCodeGenerateTools.m */; };
@@ -63,6 +65,9 @@
 		78DB8844075E43D52C2B4885 /* Pods-QRCodeScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeScan.debug.xcconfig"; path = "Target Support Files/Pods-QRCodeScan/Pods-QRCodeScan.debug.xcconfig"; sourceTree = "<group>"; };
 		A4BABEFD91F5CD6542A3A756 /* libPods-QRCodeScanTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QRCodeScanTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B071FDA83DAAA31CB8403803 /* Pods-QRCodeScan-QRCodeScanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeScan-QRCodeScanUITests.debug.xcconfig"; path = "Target Support Files/Pods-QRCodeScan-QRCodeScanUITests/Pods-QRCodeScan-QRCodeScanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C80E9C3B247D36A500198E13 /* Qu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Qu.bundle; sourceTree = "<group>"; };
+		C80E9C3C247D36A500198E13 /* libQuQu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuQu.a; sourceTree = "<group>"; };
+		C80E9C3D247D36A500198E13 /* QuQu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuQu.h; sourceTree = "<group>"; };
 		C8A452172429B3E200075A9B /* 猫猫扫描.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "猫猫扫描.entitlements"; sourceTree = "<group>"; };
 		D83EC76954738904858F3B0A /* Pods-QRCodeScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeScan.release.xcconfig"; path = "Target Support Files/Pods-QRCodeScan/Pods-QRCodeScan.release.xcconfig"; sourceTree = "<group>"; };
 		F10E017E239F35A40085C4F8 /* QRCodeScanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRCodeScanView.h; sourceTree = "<group>"; };
@@ -116,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13C1E27ABCD220CC0F730114 /* libPods-QRCodeScan.a in Frameworks */,
+				C80E9C3F247D36A500198E13 /* libQuQu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +166,16 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		C80E9C3A247D36A500198E13 /* WanAd */ = {
+			isa = PBXGroup;
+			children = (
+				C80E9C3B247D36A500198E13 /* Qu.bundle */,
+				C80E9C3C247D36A500198E13 /* libQuQu.a */,
+				C80E9C3D247D36A500198E13 /* QuQu.h */,
+			);
+			path = WanAd;
+			sourceTree = SOURCE_ROOT;
 		};
 		F11AF1FB239E21CA009CE7A9 /* QRCodeScan */ = {
 			isa = PBXGroup;
@@ -206,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				C8A452172429B3E200075A9B /* 猫猫扫描.entitlements */,
+				C80E9C3A247D36A500198E13 /* WanAd */,
 				F1866487213D119600AF13E7 /* Tools */,
 				F11AF1FB239E21CA009CE7A9 /* QRCodeScan */,
 				F1866430213CE28200AF13E7 /* AppDelegate.h */,
@@ -279,7 +296,7 @@
 				F1866429213CE28200AF13E7 /* Sources */,
 				F186642A213CE28200AF13E7 /* Frameworks */,
 				F186642B213CE28200AF13E7 /* Resources */,
-				D2EC973413120C698CB15E8B /* [CP] Copy Pods Resources */,
+				5B61607718F7F85CDD304E40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,7 +334,7 @@
 				F186644C213CE28400AF13E7 /* Sources */,
 				F186644D213CE28400AF13E7 /* Frameworks */,
 				F186644E213CE28400AF13E7 /* Resources */,
-				D3734A0C2BACE78D0813AFBA /* [CP] Copy Pods Resources */,
+				1B6E14C37B915605731AC774 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -388,6 +405,7 @@
 				F1866479213CE2D300AF13E7 /* scan_scanFrame@2x.png in Resources */,
 				F1866475213CE2D300AF13E7 /* scan_exchange@2x.png in Resources */,
 				F1866471213CE2D300AF13E7 /* scan_scanLine@2x.png in Resources */,
+				C80E9C3E247D36A500198E13 /* Qu.bundle in Resources */,
 				F1866477213CE2D300AF13E7 /* scan_photo@2x.png in Resources */,
 				F1866474213CE2D300AF13E7 /* scan_scanLine@3x.png in Resources */,
 			);
@@ -476,24 +494,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2EC973413120C698CB15E8B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QRCodeScan/Pods-QRCodeScan-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QRCodeScan/Pods-QRCodeScan-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRCodeScan/Pods-QRCodeScan-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D3734A0C2BACE78D0813AFBA /* [CP] Copy Pods Resources */ = {
+		1B6E14C37B915605731AC774 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -508,6 +509,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRCodeScan-QRCodeScanUITests/Pods-QRCodeScan-QRCodeScanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B61607718F7F85CDD304E40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCodeScan/Pods-QRCodeScan-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRCodeScan/Pods-QRCodeScan-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRCodeScan/Pods-QRCodeScan-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -717,6 +735,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/QRCodeScan/lib",
+					"$(PROJECT_DIR)/WanAd",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qr.camera;
 				PRODUCT_NAME = "猫猫扫描";
@@ -750,6 +769,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/QRCodeScan/lib",
+					"$(PROJECT_DIR)/WanAd",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qr.camera;
 				PRODUCT_NAME = "猫猫扫描";

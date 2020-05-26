@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <QuQu.h>
+#import "QuQu.h"
 #import "JPUSHService.h"
 
 @interface AppDelegate ()
